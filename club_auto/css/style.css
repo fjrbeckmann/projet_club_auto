@@ -1,0 +1,558 @@
+@import "./fonts.css";
+@import "./reset.css";
+html {
+  margin-top: 40px;
+}
+
+header {
+  width: 95%;
+  height: 120px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #232628;
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  header {
+    justify-content: flex-start;
+    padding-left: 30px;
+  }
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 2.5rem;
+  margin-left: 100px;
+}
+@media screen and (max-width: 768px) {
+  .brand {
+    display: none;
+  }
+}
+
+address {
+  margin-bottom: 0 !important;
+}
+@media screen and (max-width: 768px) {
+  address {
+    display: none;
+  }
+}
+
+.adresse {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .adresse {
+    display: none;
+  }
+}
+
+.telephone {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .horaires {
+    display: none;
+  }
+}
+
+.icone {
+  width: 40px;
+  height: 40px;
+}
+
+.rs {
+  display: flex;
+  margin-right: 100px;
+  gap: 20px;
+}
+@media screen and (max-width: 768px) {
+  .rs {
+    display: none;
+  }
+}
+
+.logoRs {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.textOrange {
+  color: #cc6119;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+nav {
+  width: 95%;
+  height: 60px;
+  margin: auto;
+  padding-right: 150px;
+  background-color: #eceff3;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+nav a {
+  height: 100%;
+  text-decoration: none;
+  color: #232628;
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding: 15px;
+}
+nav a:hover {
+  background-color: rgba(204, 97, 25, 0.4588235294);
+}
+@media screen and (max-width: 768px) {
+  nav {
+    display: none;
+  }
+}
+
+.activeLink {
+  background-color: #cc6119;
+  color: #ffffff;
+}
+
+.vehicule1 {
+  width: 95%;
+  margin: auto;
+}
+@media screen and (max-width: 768px) {
+  .vehicule1 {
+    display: none;
+  }
+}
+
+.title {
+  width: 95%;
+  height: 120px;
+  margin: auto;
+  padding-left: 150px;
+  background-color: #232628;
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .title {
+    padding-left: 30px;
+  }
+}
+
+.titleOrange {
+  color: #cc6119;
+}
+
+.presentation {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: black;
+}
+
+.content {
+  width: 600px;
+  padding: 20px;
+}
+
+li {
+  list-style-image: url(../images/puce.jpg);
+  padding: 7px;
+}
+
+.rentOrBuy {
+  width: 95%;
+  height: 500px;
+  margin: auto;
+  background-image: url(../images/vehicule4.jpg);
+  background-size: cover;
+  display: flex;
+  gap: 20px;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .rentOrBuy {
+    flex-direction: column;
+    height: 100%;
+  }
+}
+
+.rent {
+  width: 40%;
+  height: 250px;
+  padding: 50px;
+  background-color: rgba(250, 182, 55, 0.6509803922);
+  color: #ffffff;
+  font-family: "Open Sans", arial;
+  position: relative;
+  top: 100px;
+  left: 120px;
+}
+@media screen and (max-width: 768px) {
+  .rent {
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    left: 0;
+    padding: 50px;
+  }
+}
+
+.rent h2 {
+  color: black;
+}
+
+.buy {
+  width: 40%;
+  height: 250px;
+  padding: 50px;
+  background-color: rgba(255, 72, 72, 0.7137254902);
+  color: #ffffff;
+  position: relative;
+  top: 100px;
+  right: -150px;
+}
+@media screen and (max-width: 768px) {
+  .buy {
+    width: 100%;
+    height: 100%;
+    top: 20px;
+    right: 0;
+  }
+}
+
+.buy h2 {
+  color: black;
+}
+
+.vehiculesRecents {
+  width: 95%;
+  height: 630px;
+  background-color: #232628;
+  margin: auto;
+  padding-top: 40px;
+}
+@media screen and (max-width: 768px) {
+  .vehiculesRecents {
+    height: 100%;
+  }
+}
+
+.vehiculesRecents h2 {
+  color: #ffffff;
+  text-align: center;
+}
+
+.lignOrange {
+  width: 80%;
+  height: 3px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: #cc6119;
+}
+
+.vehiculeGrid {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 70% 1fr;
+  gap: 20px;
+}
+@media screen and (max-width: 768px) {
+  .vehiculeGrid {
+    display: none;
+  }
+}
+
+.mediaSmall {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .mediaSmall {
+    display: block;
+  }
+}
+
+.vehicule2 {
+  width: 350px;
+  margin: auto;
+  padding-top: 30px;
+}
+.vehicule2:hover {
+  opacity: 70%;
+}
+@media screen and (max-width: 768px) {
+  .vehicule2 {
+    width: 95%;
+    display: block;
+  }
+}
+
+.descAndPrice {
+  width: 350px;
+  margin: auto;
+  padding: 20px 15px;
+  background-color: #414141;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  grid-template-rows: 70% 30%;
+}
+@media screen and (max-width: 768px) {
+  .descAndPrice {
+    width: 95%;
+  }
+}
+
+article {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 15px;
+}
+
+.price {
+  color: #ffffff;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  background-color: #6c98e1;
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.crossedOutPrice {
+  text-decoration: line-through;
+  color: black;
+}
+
+.line {
+  width: 300px;
+  height: 2px;
+  margin-top: 15px;
+  margin-left: 15px;
+  background-color: #5f5f5f;
+}
+@media screen and (max-width: 768px) {
+  .line {
+    margin: auto;
+  }
+}
+
+.whyUs {
+  text-align: center;
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+  padding: 50px;
+}
+
+.arguments {
+  width: 80%;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+}
+.arguments h3 {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+@media screen and (max-width: 768px) {
+  .arguments {
+    flex-direction: column;
+  }
+}
+
+.argument {
+  display: flex;
+}
+@media screen and (max-width: 768px) {
+  .argument {
+    padding: 20px;
+  }
+}
+
+.argIcon {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+}
+@media screen and (max-width: 768px) {
+  .argIcon {
+    display: block;
+  }
+}
+
+.cta {
+  width: 210px;
+  margin: 50px auto;
+  background-color: #6c98e1;
+  border-radius: 5px;
+  padding: 15px;
+}
+.cta a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 20px;
+}
+.cta:hover {
+  background-color: #3c75d1;
+}
+
+.vehicule3Retail {
+  width: 95%;
+  height: 500px;
+  margin: auto;
+  background-image: url(../images/vehicule3.jpg);
+  background-size: cover;
+  position: relative;
+}
+@media screen and (max-width: 768px) {
+  .vehicule3Retail {
+    background-size: 180%;
+    background-repeat: no-repeat;
+  }
+}
+
+.retail {
+  width: 500px;
+  padding: 50px;
+  background-color: rgba(250, 182, 55, 0.7254901961);
+  position: relative;
+  top: 100px;
+  left: 230px;
+}
+.retail h2 {
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+.retail span {
+  color: #ffffff;
+}
+@media screen and (max-width: 768px) {
+  .retail {
+    width: 100%;
+    top: 50px;
+    left: 0;
+  }
+}
+
+footer {
+  width: 95%;
+  height: 300px;
+  padding: 50px;
+  margin: auto;
+  background-color: #232628;
+  color: #ffffff;
+  text-align: center;
+}
+footer h4 {
+  font-family: montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+footer p {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 0.8rem;
+  color: #7c7c7c;
+  padding-top: 15px;
+}
+@media screen and (max-width: 768px) {
+  footer {
+    padding: 20px;
+    height: 100%;
+  }
+}
+
+.textBlue {
+  color: #6c98e1;
+}
+
+.footer {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+  }
+}
+
+.footBlock {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+@media screen and (max-width: 768px) {
+  .footBlock {
+    width: 300px;
+  }
+}
+
+.footLign {
+  width: 80%;
+  margin: auto;
+  height: 2px;
+  background-color: #7c7c7c;
+}
+@media screen and (max-width: 768px) {
+  .footLign {
+    margin-top: 20px;
+  }
+}
+
+#mail {
+  width: 200px;
+  height: 40px;
+  border: none;
+}
+@media screen and (max-width: 768px) {
+  #mail {
+    width: 250px;
+  }
+}
+
+.rss {
+  width: 40px;
+  height: 40px;
+}
+
+#rssBtn {
+  width: 40px;
+  height: 40px;
+  border: none;
+  padding-block: 0px;
+  padding-inline: 0px;
+}
+
+.flexRs {
+  display: flex;
+  gap: 7px;
+}/*# sourceMappingURL=style.css.map */
