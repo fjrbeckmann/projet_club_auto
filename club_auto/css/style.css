@@ -132,7 +132,6 @@ address {
 }
 #nav a {
   height: 100%;
-  border-radius: 30px;
   text-decoration: none;
   color: #232628;
   font-family: montserrat, Arial, Helvetica, sans-serif;
@@ -141,6 +140,11 @@ address {
 }
 #nav a:hover {
   background-color: rgba(204, 97, 25, 0.4588235294);
+}
+@media screen and (max-width: 768px) {
+  #nav a {
+    border-radius: 30px;
+  }
 }
 @media screen and (max-width: 768px) {
   #nav {

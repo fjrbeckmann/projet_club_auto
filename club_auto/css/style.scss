@@ -116,7 +116,6 @@ address {
   align-items: center;
   & a {
     height: 100%;
-    border-radius: 30px;
     text-decoration: none;
     color: #232628;
     font-family: montserrat, Arial, Helvetica, sans-serif;
@@ -124,6 +123,9 @@ address {
     padding: 15px;
     &:hover {
       background-color: #cc611975;
+    }
+    @media screen and (max-width: 768px) {
+      border-radius: 30px;
     }
   }
   @media screen and (max-width: 768px) {
