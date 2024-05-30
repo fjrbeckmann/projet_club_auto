@@ -12,12 +12,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-      defer
-    ></script>
+    <script src="./js/script.js" defer></script>
   </head>
   <body>
     <header>
@@ -50,6 +45,7 @@
         ><strong>Du Lundi au Samedi</strong><br />
         <span class="textOrange">HORAIRES: </span><strong>De 9h à 17h</strong>
       </div>
+      <button type="button" id="hamMenu"></button>
       <div class="rs">
         <a target="_blank" href="https://www.facebook.com/">
           <img class="logoRs" src="./images/logoFB.jpg" alt="logo facebook" />
@@ -59,8 +55,8 @@
         </a>
       </div>
     </header>
-    <nav>
-      <a class="activeLink" href="index.html">ACCUEIL</a>
+    <nav id="nav">
+      <a id="activeLink" href="index.html">ACCUEIL</a>
       <a href="vente.html">VENTE</a>
       <a href="location.html">LOCATION</a>
       <a href="contact.html">CONTACT</a>
@@ -69,7 +65,7 @@
       <section>
         <div class="vehicule1">
           <img
-            class="img-fluid"
+            class="imageVehicule1"
             src="./images/vehicule1.jpg"
             alt="véhicules d'occasion"
           />
@@ -84,9 +80,9 @@
         </div>
       </section>
       <section class="presentation">
-        <div>
+        <div class="content">
           <img
-            class="img-fluid content"
+            class="clients"
             src="./images/clients.jpg"
             alt="clients devant une voiture"
           />
@@ -136,9 +132,9 @@
             <li>Lorem ipsum dolor sit amet</li>
           </ul>
         </div>
-        <div>
+        <div class="content">
           <img
-            class="img-fluid content"
+            class="entretien"
             src="./images/entretien.jpg"
             alt="mecanicien nettoyant un véhicule"
           />
@@ -171,7 +167,7 @@
         <div class="lignOrange"></div>
         <div class="mediaSmall">
           <img
-            class="img-fluid vehicule2"
+            class="vehicule2"
             src="./images/vehicule2.jpg"
             alt="voiture à vendre modèle bmw 535I"
           />
@@ -186,17 +182,17 @@
         </div>
         <div class="vehiculeGrid">
           <img
-            class="img-fluid vehicule2"
+            class="vehicule2"
             src="./images/vehicule2.jpg"
             alt="voiture à vendre modèle bmw 535I"
           />
           <img
-            class="img-fluid vehicule2"
+            class="vehicule2"
             src="./images/vehicule2.jpg"
             alt="voiture à vendre modèle bmw 328I"
           />
           <img
-            class="img-fluid vehicule2"
+            class="vehicule2"
             src="./images/vehicule2.jpg"
             alt="voiture à vendre modèle ford explorer 2015"
           />
@@ -325,7 +321,7 @@
         </div>
         <div class="footBlock">
           <h4>NEWSLETTER</h4>
-          <div class="input-group">
+          <div>
             <input
               type="email"
               name="mail"
