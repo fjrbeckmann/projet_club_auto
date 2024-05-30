@@ -3,6 +3,11 @@
 html {
   margin-top: 40px;
 }
+@media screen and (max-width: 768px) {
+  html {
+    margin-top: 10px;
+  }
+}
 
 header {
   width: 95%;
