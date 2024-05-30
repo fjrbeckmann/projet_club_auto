@@ -19,6 +19,10 @@ header {
     justify-content: flex-start;
     padding-left: 30px;
   }
+  @media screen and (min-width: 768px) and (max-width: 1400px) {
+    font-size: 0.7rem;
+    gap: 20px;
+  }
 }
 
 .brand {
@@ -74,6 +78,9 @@ address {
 .logoRs {
   width: 40px;
   border-radius: 50%;
+  &:hover {
+    border: 1px solid #ffffff;
+  }
 }
 .textOrange {
   color: #cc6119;
@@ -197,6 +204,9 @@ li {
     left: 0;
     padding: 50px;
   }
+  @media screen and (min-width: 768px) and (max-width: 1400px) {
+    overflow: hidden;
+  }
 }
 
 .rent h2 {
@@ -217,6 +227,9 @@ li {
     top: 20px;
     right: 0;
   }
+  @media screen and (min-width: 768px) and (max-width: 1400px) {
+    overflow: hidden;
+  }
 }
 
 .buy h2 {
@@ -231,6 +244,9 @@ li {
   padding-top: 40px;
   @media screen and (max-width: 768px) {
     height: 100%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1400px) {
+    overflow: hidden;
   }
 }
 
@@ -371,10 +387,11 @@ article {
   background-color: #6c98e1;
   border-radius: 5px;
   padding: 15px;
+  display: flex;
+  justify-content: center;
   & a {
     color: #ffffff;
     text-decoration: none;
-    margin: 20px;
   }
   &:hover {
     background-color: #3c75d1;
@@ -426,6 +443,9 @@ footer {
   & h4 {
     font-family: montserrat, Arial, Helvetica, sans-serif;
     font-size: 1rem;
+    @media screen and (min-width: 768px) and (max-width: 1400px) {
+      font-size: 0.7rem;
+    }
   }
   & p {
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
@@ -435,6 +455,9 @@ footer {
   }
   @media screen and (max-width: 768px) {
     padding: 20px;
+    height: 100%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1400px) {
     height: 100%;
   }
 }
@@ -450,6 +473,9 @@ footer {
   justify-content: space-between;
   @media screen and (max-width: 768px) {
     flex-direction: column;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1400px) {
+    gap: 20px;
   }
 }
 

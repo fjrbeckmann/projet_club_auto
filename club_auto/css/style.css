@@ -21,6 +21,12 @@ header {
     padding-left: 30px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  header {
+    font-size: 0.7rem;
+    gap: 20px;
+  }
+}
 
 .brand {
   font-weight: bold;
@@ -84,6 +90,9 @@ address {
 .logoRs {
   width: 40px;
   border-radius: 50%;
+}
+.logoRs:hover {
+  border: 1px solid #ffffff;
 }
 
 .textOrange {
@@ -219,6 +228,11 @@ li {
     padding: 50px;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .rent {
+    overflow: hidden;
+  }
+}
 
 .rent h2 {
   color: black;
@@ -242,6 +256,11 @@ li {
     right: 0;
   }
 }
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .buy {
+    overflow: hidden;
+  }
+}
 
 .buy h2 {
   color: black;
@@ -257,6 +276,11 @@ li {
 @media screen and (max-width: 768px) {
   .vehiculesRecents {
     height: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .vehiculesRecents {
+    overflow: hidden;
   }
 }
 
@@ -414,11 +438,12 @@ article {
   background-color: #6c98e1;
   border-radius: 5px;
   padding: 15px;
+  display: flex;
+  justify-content: center;
 }
 .cta a {
   color: #ffffff;
   text-decoration: none;
-  margin: 20px;
 }
 .cta:hover {
   background-color: #3c75d1;
@@ -475,6 +500,11 @@ footer h4 {
   font-family: montserrat, Arial, Helvetica, sans-serif;
   font-size: 1rem;
 }
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  footer h4 {
+    font-size: 0.7rem;
+  }
+}
 footer p {
   font-family: "Open Sans", Arial, Helvetica, sans-serif;
   font-size: 0.8rem;
@@ -484,6 +514,11 @@ footer p {
 @media screen and (max-width: 768px) {
   footer {
     padding: 20px;
+    height: 100%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  footer {
     height: 100%;
   }
 }
@@ -501,6 +536,11 @@ footer p {
 @media screen and (max-width: 768px) {
   .footer {
     flex-direction: column;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1400px) {
+  .footer {
+    gap: 20px;
   }
 }
 
