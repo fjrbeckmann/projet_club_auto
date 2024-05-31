@@ -1,57 +1,47 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="automobile, vente, location" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="automobile, vente, location">
     <title>CLUB AUTO - Le meilleur de l'automobile</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- ajout CDN Bootstrap -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
-    />
+    >
     <script src="./js/script.js" defer></script>
   </head>
   <body>
     <header>
       <div class="brand">CLUB AUTO</div>
       <div class="adresse">
-        <img
-          class="icone"
-          src="./images/icone-adresse.png"
-          alt="icone d'adresse"
-        />
+        <img class="icone" src="./images/icone-adresse.png" alt="icone d'adresse">
         <address>
-          <span class="textOrange">ADRESSE:</span><br />AVENUE CHARLES DE GAULLE
-          <br />75000 PARIS
+          <span class="textOrange">ADRESSE:</span><br>AVENUE CHARLES DE GAULLE<br>75000 PARIS
         </address>
       </div>
       <div class="telephone">
-        <img
-          class="icone"
-          src="./images/icon-telephone.png"
-          alt="icone téléphone"
-        />
+        <img class="icone" src="./images/icon-telephone.png" alt="icone téléphone">
         <div>
-          <span class="textOrange">TELEPHONE: </span><br /><strong
-            >01 23 45 67 89</strong
-          >
+          <span class="textOrange">TELEPHONE: </span><br><strong>01 23 45 67 89</strong>
         </div>
       </div>
       <div class="horaires">
-        <span class="textOrange">OUVERTURE: </span
-        ><strong>Du Lundi au Samedi</strong><br />
+        <span class="textOrange">OUVERTURE: </span><strong>Du Lundi au Samedi</strong><br>
         <span class="textOrange">HORAIRES: </span><strong>De 9h à 17h</strong>
       </div>
+      <!-- bouton menu hamburger (interactif avec JS) pour smartphone -->
       <button type="button" id="hamMenu"></button>
       <div class="rs">
         <a target="_blank" href="https://www.facebook.com/">
-          <img class="logoRs" src="./images/logoFB.jpg" alt="logo facebook" />
+          <img class="logoRs" src="./images/logoFB.jpg" alt="logo facebook">
         </a>
         <a target="_blank" href="https://x.com/">
-          <img class="logoRs" src="./images/logoX.jpg" alt="logo X" />
+          <img class="logoRs" src="./images/logoX.jpg" alt="logo X">
         </a>
       </div>
     </header>
@@ -64,38 +54,21 @@
     <main>
       <section>
         <div class="vehicule1">
-          <img
-            class="imageVehicule1"
-            src="./images/vehicule1.jpg"
-            alt="véhicules d'occasion"
-          />
+          <img class="imageVehicule1" src="./images/vehicule1.jpg" alt="véhicules d'occasion">
         </div>
         <div class="title">
-          <h1>
-            <strong>
-              CLUB AUTO
-              <span class="titleOrange">LE MEILLEUR DE L'AUTOMOBILE</span>
-            </strong>
-          </h1>
+          <h1><strong>CLUB AUTO <span class="titleOrange">LE MEILLEUR DE L'AUTOMOBILE</span></strong></h1>
         </div>
       </section>
       <section class="presentation">
         <div class="content">
-          <img
-            class="clients"
-            src="./images/clients.jpg"
-            alt="clients devant une voiture"
-          />
+          <img class="clients" src="./images/clients.jpg" alt="clients devant une voiture">
         </div>
         <div class="content">
-          <h2>
-            <strong
-              >BIENVENUE CHEZ <span class="titleOrange">CLUB AUTO</span></strong
-            >
-          </h2>
+          <h2><strong>BIENVENUE CHEZ <span class="titleOrange">CLUB AUTO</span></strong></h2>
           <p>
-            <strong
-              >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic et
+            <strong>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic et
               id illum, quas consequatur libero.
             </strong>
           </p>
@@ -114,7 +87,7 @@
         </div>
         <div class="content">
           <h2><strong>LE MEILLEUR DE L'AUTOMOBILE</strong></h2>
-          <hr />
+          <hr>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
             numquam doloribus, neque ad deserunt rem? Labore, at velit
@@ -133,11 +106,7 @@
           </ul>
         </div>
         <div class="content">
-          <img
-            class="entretien"
-            src="./images/entretien.jpg"
-            alt="mecanicien nettoyant un véhicule"
-          />
+          <img class="entretien" src="./images/entretien.jpg" alt="mecanicien nettoyant un véhicule">
         </div>
       </section>
       <section>
@@ -166,14 +135,10 @@
         <h2><strong>VEHICULES RECENTS</strong></h2>
         <div class="lignOrange"></div>
         <div class="mediaSmall">
-          <img
-            class="vehicule2"
-            src="./images/vehicule2.jpg"
-            alt="voiture à vendre modèle bmw 535I"
-          />
+          <img class="vehicule2" src="./images/vehicule2.jpg" alt="voiture à vendre modèle bmw 535I">
           <div class="descAndPrice">
             <article>
-              BMW 535I, NAVI,<br />
+              BMW 535I, NAVI,<br>
               LEATHER, ABS
             </article>
             <div class="price">5500€</div>
@@ -181,24 +146,12 @@
           </div>
         </div>
         <div class="vehiculeGrid">
-          <img
-            class="vehicule2"
-            src="./images/vehicule2.jpg"
-            alt="voiture à vendre modèle bmw 535I"
-          />
-          <img
-            class="vehicule2"
-            src="./images/vehicule2.jpg"
-            alt="voiture à vendre modèle bmw 328I"
-          />
-          <img
-            class="vehicule2"
-            src="./images/vehicule2.jpg"
-            alt="voiture à vendre modèle ford explorer 2015"
-          />
+          <img class="vehicule2" src="./images/vehicule2.jpg" alt="voiture à vendre modèle bmw 535I">
+          <img class="vehicule2" src="./images/vehicule2.jpg" alt="voiture à vendre modèle bmw 328I">
+          <img class="vehicule2" src="./images/vehicule2.jpg" alt="voiture à vendre modèle ford explorer 2015">
           <div class="descAndPrice">
             <article>
-              BMW 535I, NAVI,<br />
+              BMW 535I, NAVI,<br>
               LEATHER, ABS
             </article>
             <div class="price">5500€</div>
@@ -206,7 +159,7 @@
           </div>
           <div class="descAndPrice">
             <article>
-              BMW 328I, SPORT<br />
+              BMW 328I, SPORT<br>
               LINE BODY KIT
             </article>
             <div class="price">8000€</div>
@@ -214,7 +167,7 @@
           </div>
           <div class="descAndPrice">
             <article>
-              FORD EXPLORER 2015<br />
+              FORD EXPLORER 2015<br>
               4WD
             </article>
             <div class="price">
@@ -228,11 +181,7 @@
         <h2 class="whyUs"><strong>Pourquoi nous choisir ?</strong></h2>
         <div class="arguments">
           <div class="argument">
-            <img
-              class="argIcon"
-              src="./images/icon1.png"
-              alt="icone étiquette"
-            />
+            <img class="argIcon" src="./images/icon1.png" alt="icone étiquette">
             <div>
               <h3>Financement</h3>
               <p>
@@ -243,13 +192,9 @@
             </div>
           </div>
           <div class="argument">
-            <img
-              class="argIcon"
-              src="./images/icon2.png"
-              alt="icone compteur"
-            />
+            <img class="argIcon" src="./images/icon2.png" alt="icone compteur">
             <div>
-              <h3>Réactivité de<br />l'équipe technique</h3>
+              <h3>Réactivité de<br>l'équipe technique</h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam,
                 facere accusantium id minima eveniet nostrum.
@@ -257,13 +202,9 @@
             </div>
           </div>
           <div class="argument">
-            <img
-              class="argIcon"
-              src="./images/icon3.png"
-              alt="icone bulle de texte"
-            />
+            <img class="argIcon" src="./images/icon3.png" alt="icone bulle de texte">
             <div>
-              <h3>A l'écoute de notre<br />clientèle</h3>
+              <h3>A l'écoute de notre<br>clientèle</h3>
               <p>
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
                 atque consequatur id hic accusantium itaque qui quis delectus
@@ -272,13 +213,9 @@
             </div>
           </div>
           <div class="argument">
-            <img
-              class="argIcon"
-              src="./images/icon4.png"
-              alt="icone paperboard"
-            />
+            <img class="argIcon" src="./images/icon4.png" alt="icone paperboard">
             <div>
-              <h3>Service &<br />maintenance</h3>
+              <h3>Service &<br>maintenance</h3>
               <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Officiis nisi dolore, atque pariatur ullam explicabo.
@@ -290,7 +227,7 @@
       </section>
       <section class="vehicule3Retail">
         <div class="retail">
-          <h2>CLUB AUTO<br /><span>VENTE ET LOCATION</span></h2>
+          <h2>CLUB AUTO<br><span>VENTE ET LOCATION</span></h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt beatae
             alias vero minima ducimus molestias, eligendi amet repellendus!
@@ -314,7 +251,7 @@
           <h4>HORAIRES D'OUVERTURE</h4>
           <p>
             <strong>
-              Lundi - Samedi : 09:00-17:00<br />
+              Lundi - Samedi : 09:00-17:00<br>
               Dimanche et jours fériés : Fermé
             </strong>
           </p>
@@ -322,18 +259,13 @@
         <div class="footBlock">
           <h4>NEWSLETTER</h4>
           <div>
-            <input
-              type="email"
-              name="mail"
-              id="mail"
-              placeholder="Entrez votre email"
-            />
+            <input type="email" name="mail" id="mail" placeholder="Entrez votre email">
             <button id="rssBtn">
-              <img class="rss" src="./images/logoRss.jpg" alt="logo flux rss" />
+              <img class="rss" src="./images/logoRss.jpg" alt="logo flux rss">
             </button>
           </div>
           <p>
-            Inscrivez-vous pour recevoir les<br />
+            Inscrivez-vous pour recevoir les<br>
             dernières offres
           </p>
         </div>
@@ -341,35 +273,19 @@
           <h4>RESEAUX SOCIAUX</h4>
           <div class="flexRs">
             <a target="_blank" href="https://www.facebook.com/">
-              <img
-                class="icone"
-                src="./images/logoFB.jpg"
-                alt="logo Facebook"
-              />
+              <img class="icone" src="./images/logoFB.jpg" alt="logo Facebook">
             </a>
             <a target="_blank" href="https://www.x.com/">
-              <img class="icone" src="./images/logoX.jpg" alt="logo x" />
+              <img class="icone" src="./images/logoX.jpg" alt="logo x">
             </a>
             <a target="_blank" href="https://www.instagram.com/">
-              <img
-                class="icone"
-                src="./images/logoInsta.jpg"
-                alt="logo Instagram"
-              />
+              <img class="icone" src="./images/logoInsta.jpg" alt="logo Instagram">
             </a>
             <a target="_blank" href="https://www.google.fr/">
-              <img
-                class="icone"
-                src="./images/logoGoogle.jpg"
-                alt="logo Google+"
-              />
+              <img class="icone" src="./images/logoGoogle.jpg" alt="logo Google+">
             </a>
             <a target="_blank" href="https://www.youtube.com/">
-              <img
-                class="icone"
-                src="./images/logoYoutube.jpg"
-                alt="logo Youtube"
-              />
+              <img class="icone" src="./images/logoYoutube.jpg" alt="logo Youtube">
             </a>
           </div>
         </div>

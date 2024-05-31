@@ -1,3 +1,5 @@
+// affiche ou cache la navbar au clic sur menu hambuger
+
 let btn = document.getElementById("hamMenu");
 let nav = document.getElementById("nav");
 
